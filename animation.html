@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin:0px;
+            padding:0px;
+        }
+        
+        body {
+            width: 100%;
+            background-image: url(images/bg.jpg);
+            position:fixed;
+        }
+
+        .animation1 {
+            width: 193px;
+            height: 138px;
+            background-image: url(images/right_car1.png);
+            position: relative;
+            top: 750px;
+            animation: ani1 8s infinite;
+        }
+        @keyframes ani1 {
+            0%{left:-1000px;}
+            100%{left:2000px;}
+        }
+        .animation2 {
+            width: 191px;
+            height: 115px;
+            background-image: url(images/right_car2.png);
+            position: relative;
+            top: 600px;
+            animation: ani1 10s infinite;
+        }
+        @keyframes ani1 {
+            0%{left:-1000px;}
+            100%{left:2000px;}
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="animation1"></div>
+    <div class="animation2"></div>
+
+</body>
+</html>
